@@ -26,6 +26,24 @@
         app:layout_constraintVertical_bias="0.109" />
 
     <EditText
+        android:id="@+id/txtAltura"
+        android:layout_width="370dp"
+        android:layout_height="59dp"
+        android:background="#6DE6DEDE"
+        android:ems="10"
+        android:hint="Ingresa tu Altura en metros"
+        android:inputType="numberDecimal"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.434"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
         android:id="@+id/txtPeso"
         android:layout_width="370dp"
         android:layout_height="59dp"
@@ -40,25 +58,7 @@
         app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.236"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <EditText
-        android:id="@+id/txtAltura"
-        android:layout_width="370dp"
-        android:layout_height="59dp"
-        android:ems="10"
-        android:hint="Ingresa tu Altura en metros"
-        android:inputType="numberDecimal"
-        android:background="#6DE6DEDE"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.366"
+        app:layout_constraintVertical_bias="0.305"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
@@ -68,15 +68,15 @@
         android:fontFamily="@font/bevan"
         android:text="TextView"
         android:textAlignment="center"
+        android:textColor="@color/white"
         android:textSize="15dp"
         android:visibility="invisible"
-        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.462" />
+        app:layout_constraintVertical_bias="0.527" />
 
     <Button
         android:id="@+id/btnCalcular"
@@ -90,7 +90,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.546" />
+        app:layout_constraintVertical_bias="0.701" />
 
     <Button
         android:id="@+id/btnLimpiar"
@@ -104,17 +104,6 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.647" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="427dp"
-        android:layout_height="259dp"
-        android:layout_marginStart="48dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/img" />
+        app:layout_constraintVertical_bias="0.802" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
