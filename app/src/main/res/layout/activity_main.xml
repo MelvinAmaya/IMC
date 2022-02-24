@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/fodo">
+    android:background="@drawable/fondo2">
 
     <include
         android:id="@+id/include"
@@ -29,6 +29,7 @@
         android:id="@+id/txtPeso"
         android:layout_width="370dp"
         android:layout_height="59dp"
+        android:background="#6DE6DEDE"
         android:ems="10"
         android:hint="Ingresa tu peso en kg"
         android:inputType="numberDecimal"
@@ -49,6 +50,7 @@
         android:ems="10"
         android:hint="Ingresa tu Altura en metros"
         android:inputType="numberDecimal"
+        android:background="#6DE6DEDE"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"

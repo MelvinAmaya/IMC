@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/liteBlue">
+    android:background="@color/black">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -22,6 +22,7 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_marginStart="16dp"
+            android:textColor="@color/white"
             android:layout_toEndOf="@+id/btnatras"
             android:text="My application"
             android:textSize="20dp" />

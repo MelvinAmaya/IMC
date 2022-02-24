@@ -18,6 +18,7 @@ public class MainActivity_inicio extends AppCompatActivity {
     public ImageView btback;
     public TextView titulo;
     int cont;
+    public Button abo;
 
     @Override
     public void onBackPressed() {
@@ -55,7 +56,15 @@ public class MainActivity_inicio extends AppCompatActivity {
         titulo = (TextView) findViewById(R.id.toolbar_title);
         titulo.setVisibility(View.INVISIBLE);
         btback.setVisibility(View.INVISIBLE);
+        abo = (Button) findViewById(R.id.btnabout);
 
+        abo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(),MainActivity_about.class);
+                startActivity(i);
+            }
+        });
 
         ca.setOnClickListener(new View.OnClickListener() {
             @Override
