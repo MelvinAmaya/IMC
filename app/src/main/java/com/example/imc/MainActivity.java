@@ -48,10 +48,11 @@ public class MainActivity extends AppCompatActivity {
         limpiar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                altura.setText("");
                 peso.setText("");
+                altura.setText("");
                 mensja.setVisibility(View.INVISIBLE);
                 mensja.setText("");
+
             }
         });
 
